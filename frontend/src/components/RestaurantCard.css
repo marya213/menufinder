@@ -1,0 +1,46 @@
+.restaurant-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
+}
+
+.restaurant-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.restaurant-card__body {
+  padding: 1rem;
+}
+
+.restaurant-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.restaurant-card p {
+  margin: 0 0 0.75rem;
+  color: #475467;
+}
+
+.restaurant-card ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: #344054;
+}
+
+.restaurant-card li + li {
+  margin-top: 0.35rem;
+}
+
+.restaurant-card__book-btn {
+  margin-top: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  background: #175cd3;
+  color: #fff;
+  padding: 0.65rem 0.8rem;
+  cursor: pointer;
+}
